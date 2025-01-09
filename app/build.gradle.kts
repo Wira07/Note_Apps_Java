@@ -34,6 +34,9 @@ android {
     buildFeatures {
         viewBinding = true
     }
+    kotlinOptions {
+        jvmTarget = "11" // Pastikan JVM target sesuai dengan Java version
+    }
 }
 
 dependencies {
